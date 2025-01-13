@@ -1,0 +1,42 @@
+.bg{
+    background-color: black;
+    padding: 1%;
+    width: 60vw;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.up{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+.down{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.down-right{
+    display: grid;
+    grid-template-columns:1fr;
+    gap: 2rem;
+}
+
+.brown{
+    background-color: brown;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.dr1, .dr2, .down-left{
+    background-color: blue;
+}
+.down-left{
+    background-color: green;
+}
